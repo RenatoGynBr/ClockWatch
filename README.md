@@ -1,5 +1,5 @@
 # ClockWatch
-Clock Watch in Windows Forms
+ClockWatch Project in Windows Forms
 
 Instructions:
 

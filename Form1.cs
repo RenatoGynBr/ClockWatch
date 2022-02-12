@@ -67,18 +67,18 @@ namespace ClockWatch
             cg.DrawEllipse(new Pen(Color.Aquamarine, 6f), 0, 0, WIDTH, HEIGHT);
 
             //draw clock numbers
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(140, 3)); //12
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(218, 22)); //1
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(253, 70)); //2
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(275, 140)); //3
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(253, 202)); //4
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(218, 242)); //5
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(140, 266)); //6
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(70, 242)); //7
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(22, 202)); //8
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(1, 140)); //9
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(22, 70)); //10
-            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(70, 22)); //11
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(139, 1)); //12
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(206, 13)); //1
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(257, 64)); //2
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(275, 130)); //3
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(257, 200)); //4
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(206, 248)); //5
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(139, 266)); //6
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(70, 248)); //7
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(20, 200)); //8
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(1, 130)); //9
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(20, 64)); //10
+            cg.DrawString("·", new Font("Ariel", 26), Brushes.Aquamarine, new PointF(70, 13)); //11
 
             //draw seconds hand
             handCoord = msCoord(ss, secHAND);
